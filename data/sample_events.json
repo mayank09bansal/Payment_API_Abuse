@@ -1,0 +1,47 @@
+[
+  {
+    "user_id": "synthetic-user-001",
+    "device_id": "device-a",
+    "endpoint": "account_view",
+    "requests_per_minute": 4,
+    "auth_failures": 0,
+    "transaction_velocity": 0,
+    "amount": 0,
+    "amount_deviation": 0.1,
+    "endpoint_diversity": 2,
+    "device_changed": false,
+    "network_changed": false,
+    "beneficiary_changes": 0,
+    "duplicate_request": false
+  },
+  {
+    "user_id": "synthetic-user-002",
+    "device_id": "device-new",
+    "endpoint": "payment_initiation",
+    "requests_per_minute": 38,
+    "auth_failures": 7,
+    "transaction_velocity": 9,
+    "amount": 48000,
+    "amount_deviation": 0.95,
+    "endpoint_diversity": 8,
+    "device_changed": true,
+    "network_changed": true,
+    "beneficiary_changes": 4,
+    "duplicate_request": true
+  },
+  {
+    "user_id": "synthetic-user-003",
+    "device_id": "device-b",
+    "endpoint": "beneficiary_update",
+    "requests_per_minute": 17,
+    "auth_failures": 3,
+    "transaction_velocity": 2,
+    "amount": 0,
+    "amount_deviation": 0.4,
+    "endpoint_diversity": 6,
+    "device_changed": true,
+    "network_changed": false,
+    "beneficiary_changes": 2,
+    "duplicate_request": false
+  }
+]
